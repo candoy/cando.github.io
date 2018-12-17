@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "【笔记】
-categories: 编程之魅
+categories: 你可以的IT
 tags: 
-author: ZOE
+author: candoy
 ---
 
 * content
