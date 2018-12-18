@@ -6,11 +6,14 @@ tags: jekyll
 author: candoy
 ---
 
+**介绍jekyll的安装和使用，问题及解决方法。**
+
+<!--more-->
+
+
+
 * content
 {:toc}
-
-
-
 
 # 一、MAC安装jekyll
 
