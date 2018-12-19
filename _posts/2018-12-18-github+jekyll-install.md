@@ -2,6 +2,7 @@
 layout: post
 title: "MAC下安装github.io+jekyll及使用问题"
 categories: 软件安装
+permalink: /jekyll_install_and_use_on_mac.html
 tags: jekyll
 author: candoy
 ---
@@ -40,8 +41,8 @@ https://gems.ruby-china.com
 
 如果出现make failed
 {% highlight linux %}
-make  clean  c/gems/http_parser.rb-0.6.0/ext/ruby_http_parser 
-make "DESTDIR=" 
+make  clean  c/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
 make: *** No rule to make target `/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/universal-darwin18/ruby/config.h', needed by `ruby_http_parser.o'.  
 Stop.  make failed, exit code 2
 {% endhighlight %}
@@ -71,7 +72,7 @@ gem install kramdown // markdown语言解析包
 gem install pygments.rb // 代码高亮包
 gem install liquid
 {% endhighlight %}
- // 
+ //
 // 还有些别的包，看需要来安装啦
 
 # 二、jekyll使用
@@ -131,4 +132,3 @@ tags:
 {% endhighlight %}
 
 ## 2.5 网站计数器
-
