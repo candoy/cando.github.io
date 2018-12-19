@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "candoy | You Can Do IT!"
-description: "这里是IT学习的经验"
+title: "Candoy"
+description: "分享IT学习的经验"
 brief-intro: 欢迎关注公众号
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://candoy.github.io" # the base hostname & protocol for your site
@@ -62,7 +62,7 @@ excerpt_separator: <!--more-->
 
 # paginate
 gems: [jekyll-paginate]
-paginate: 3
+paginate: 6
 
 #links:
 #  - title: "Home"
