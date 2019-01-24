@@ -14,7 +14,7 @@ date: "2018-12-19 09:18:02 +0800"
 # 1.教程
 
 
-# 2.视频
+# 2.Video
 
 
 ## 2.1[高级深度强化学习课程](https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs)
@@ -67,3 +67,5 @@ date: "2018-12-19 09:18:02 +0800"
 深度学习8：无监督学习和生成式模型
 
 强化学习10：经典游戏的案例学习
+
+# 3.others
