@@ -2,7 +2,7 @@
 
 ###  前言
 
-![](/statics/1-2.jpg)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-2.jpg)
 
  Django 基础知识的全新系列教程。这是一个开始学习 Django 的完整入门指南。教程材料一共会被分为七个部分（译注：被我们拆分为27个小章节）。我们将从安装，开发环境的准备、模型、视图、模板、URL到更高级的主题（如迁移、测试和部署）中详细探讨所有基本概念。
 <!--more-->
@@ -13,7 +13,7 @@
 
 当年我在一所大学担任代课教授时，我曾经在计算机科学专业给新来的学生讲授网络开发学科。那时我总是会用下面这个孔夫子的名言开始新的课程：
 
-![](/statics/1-3.jpg)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-3.jpg)
 
 *(译者注：不确定是孔子讲的，但这句话早在中国古代就有所提到，出自荀子《儒效篇》“不闻不若闻之，闻之不若见之，见之不若知之，知之不若行之；学至于行之而止矣”)*
 
@@ -48,7 +48,7 @@ Django的开发得到了[Django软件基金会](https://www.djangoproject.com/fo
 
 我们需要做的第一件事是在我们的电脑上安装一些程序，以便能够开始使用django。基本的设置包括安装**Python**，**Virtualenv**和**Django**。
 
-![](/statics/1-4.jpg)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-4.jpg)
 
 使用虚拟环境不是强制性的，但是我还是强烈建议大家这样做。如果你是一个初学者，那么最好形成一个良好的开端。
 
@@ -102,7 +102,7 @@ python3 --version
 Python 3.6.2
 ```
 
-![](./statics/1-5.png)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-5.png)
 
 很棒，python已经启动并正在运行。下一步：虚拟环境！
 
@@ -118,7 +118,7 @@ Python 3.6.2
 sudo pip3 install virtualenv
 ```
 
-![](./statics/1-6.png)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-6.png)
 
 到目前为止，我们执行的安装都是在操作系统环境下运行的。从现在开始，我们安装的所有东西，包括django本身，都将安装在虚拟环境中。
 
@@ -133,7 +133,7 @@ mkdir myproject
 cd myproject
 ```
 
-![](./statics/1-7.png)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-7.png)
 
 这个文件夹是级别较高的目录，将存储与我们的Django项目相关的所有文件和东西，包括它的虚拟环境。
 
@@ -145,7 +145,7 @@ cd myproject
 virtualenv venv -p python3
 ```
 
-![](./statics/1-8.png)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-8.png)
 
 这样我们的虚拟环境就创建好了。在开始使用它之前，我们需要先激活一下环境：
 
@@ -155,7 +155,7 @@ source venv/bin/activate
 
 如果你在命令行前面看到 **(venv)**，就代表激活成功了，就像这样：
 
-![](./statics/1-9.png)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-9.png)
 
 让我们试着了解一下这里发生了什么。我们创建了一个名为**venv**的特殊文件夹。该文件夹内包含了一个python的副本。在我们激活了**venv**环境之后，当我们运行`Python`命令时，它将使用我们存储在venv里面的本地副本，而不是我们之前在操作系统中安装的那个。
 
@@ -182,8 +182,8 @@ pip install django==1.11.4
 # 除非你有能力 debug，否则不建议你使用django 2.x，等你熟悉Django后，再升级都Django2.0 也不迟，因为两个版本的差异非常小
 ```
 
-![](./statics/1-10.png)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-10.png)
 
 现在一切就绪！
 
-![](./statics/1-11.png)
+![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-11.png)
