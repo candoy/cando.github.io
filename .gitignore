@@ -3,4 +3,7 @@ _site
 .jekyll-metadata
 .vscode
 .idea
-
+vendor/*
+.gitignore
+_posts/.DS_Store
+_posts/.DS_Store
