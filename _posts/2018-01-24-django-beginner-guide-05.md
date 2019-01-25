@@ -6,7 +6,7 @@
 
 
 这些模型基本上代表了应用程序的数据库设计。我们在本节中要做的是创建 Django 所表示的类，这些类就是在上一节中建模的类：Board，Topic和Post。User 模型被命名为内置应用叫 **auth**，它以命名空间 django.contrib.auth 的形式出现在 `INSTALLED_APPS` 配置中。
-
+<!--more-->
 我们要做的工作都在 boards/models.py 文件中。以下是我们在Django应用程序中如何表示类图的代码：
 
 

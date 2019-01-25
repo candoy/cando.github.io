@@ -4,7 +4,7 @@
 ### 启动一个新项目
 
 执行下面的命令来创建一个新的 Django 项目：
-
+<!--more-->
 ```bash
 django-admin startproject myproject
 ```

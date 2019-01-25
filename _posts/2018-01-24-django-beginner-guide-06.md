@@ -1,7 +1,7 @@
 # Django入门指南-第6章：第一个视图函数
 
 目前我们已经有一个视图函数叫`home`,这个视图在我们的应用程序主页上显示为“Hello，World！”
-
+<!--more-->
 **myproject/urls.py**
 
 ```python
