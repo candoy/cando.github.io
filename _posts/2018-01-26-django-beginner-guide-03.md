@@ -1,4 +1,12 @@
-# Django入门指南-第3章：Hello World
+---
+layout: post
+title: "Django入门指南-第3章：Hello World"
+categories: Django教程
+permalink: /django_beginner_guide_03.html
+tags: django
+author: candoy
+---
+
 <!--more-->
 现在来写我们的第一个**视图(view)**。我们将在下一篇教程中详细探讨它。但现在，让我们试试看看如何用Django创建一个新页面。
 

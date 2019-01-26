@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Django入门指南-第2章：创建项目"
+categories: Django教程
+permalink: /django_beginner_guide_02.html
+tags: django
+author: candoy
+---
 # Django入门指南-第2章：创建项目
 <!--more-->
 

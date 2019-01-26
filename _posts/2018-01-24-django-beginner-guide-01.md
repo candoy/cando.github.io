@@ -1,4 +1,12 @@
-# Django入门指南-第1章：环境搭建
+---
+layout: post
+title: "Django入门指南-第1章：环境搭建"
+categories: Django教程
+permalink: /django_beginner_guide_01.html
+tags: django
+author: candoy
+---
+
 <!--more-->
 ###  前言
 
