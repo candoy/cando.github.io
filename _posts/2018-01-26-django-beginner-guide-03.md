@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Django入门指南-第3章：Hello World"
+title: "Django教程03：Hello World"
 categories: Django教程
 permalink: /django_beginner_guide_03.html
 tags: django

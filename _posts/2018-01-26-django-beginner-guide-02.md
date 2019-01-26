@@ -6,7 +6,7 @@ permalink: /django_beginner_guide_02.html
 tags: django
 author: candoy
 ---
-# Django入门指南-第2章：创建项目
+
 <!--more-->
 
 ### 启动一个新项目
