@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Django教程02: 创建项目"
+title: "Django教程02:创建项目"
 categories: Django教程
 permalink: /django_beginner_guide_02.html
 tags: django
 author: candoy
 ---
-
+首先是创建项目，使用django-admin.py startproject myproject和django-admin.py startapp boards。
 <!--more-->
 
 ### 启动一个新项目

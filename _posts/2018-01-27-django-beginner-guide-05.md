@@ -1,4 +1,12 @@
-# Django入门指南-第5章：模型设计
+---
+layout: post
+title: "Django教程05:模型设计"
+categories: Django教程
+permalink: /django_beginner_guide_05.html
+tags: django
+author: candoy
+---
+<!--more-->
 
 ![featured](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/2-1.jpg)
 
