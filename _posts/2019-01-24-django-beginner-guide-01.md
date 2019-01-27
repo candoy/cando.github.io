@@ -6,7 +6,7 @@ permalink: /django_beginner_guide_01.html
 tags: django
 author: candoy
 ---
- Django 基础知识的全新系列教程。这是一个开始学习 Django 的完整入门指南。教程材料一共会被分为七个部分（拆分为27个小章节）。从安装，开发环境的准备、模型、视图、模板、URL到更高级的主题（如迁移、测试和部署）中详细探讨所有基本概念。
+ Django 基础知识的全新系列教程。这是一个开始学习 Django 的完整入门指南。教程材料一共会被分为七个部分（译拆分为27个小章节）。从安装，开发环境的准备、模型、视图、模板、URL到更高级的主题（如迁移、测试和部署）中详细探讨所有基本概念。
 <!--more-->
 ###  前言
 ![](https://raw.githubusercontent.com/candoy/candoy.github.io/master/_posts/statics/1-2.jpg)
