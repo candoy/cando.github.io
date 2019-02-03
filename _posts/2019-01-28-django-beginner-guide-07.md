@@ -44,7 +44,7 @@ myproject/
 ```
 
 
-在上面的例子中，我们混入了原始HTML和一些特殊标签 ``{% for item in items %}`` 和 `{{ variable }}` 。它们是Django模板语言的一部分。上面的例子展示了如何使用 ``for``遍历列表对象。`{{ board.name }}`会在 HTML 模板中会被渲染成版块的名称，最后生成动态HTML文档。
+在上面的例子中，我们混入了原始HTML和一些特殊标签 ``{% for item in items %}{% endfor %}`` 和 `{{ variable }}` 。它们是Django模板语言的一部分。上面的例子展示了如何使用 ``for``遍历列表对象。`{{ board.name }}`会在 HTML 模板中会被渲染成版块的名称，最后生成动态HTML文档。
 
 在我们可以使用这个HTML页面之前，我们必须告诉Django在哪里可以找到我们应用程序的模板。
 
