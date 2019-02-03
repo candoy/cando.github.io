@@ -114,41 +114,6 @@ def home(request):
 
 **templates/home.html**
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Boards</title>
-  </head>
-  <body>
-    <h1>Boards</h1>
 
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Board</th>
-          <th>Posts</th>
-          <th>Topics</th>
-          <th>Last Post</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for board in boards %}
-          <tr>
-            <td>
-              {{ board.name }}
-              <small class="text-muted d-block">{{ board.description }}</small>
-            </td>
-            <td class="align-middle">0</td>
-            <td class="align-middle">0</td>
-            <td></td>
-          </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </body>
-</html>
-```
 
 ![2-2-6.png](./statics/2-2-6.png)
