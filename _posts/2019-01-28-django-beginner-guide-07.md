@@ -138,10 +138,10 @@ def home(request):
           <tr>
             <td>
               {{ board.name }}
-              <small style="color: #888">{{ board.description }}</small>
+              <small class="text-muted d-block">{{ board.description }}</small>
             </td>
-            <td>0</td>
-            <td>0</td>
+            <td class="align-middle">0</td>
+            <td class="align-middle">0</td>
             <td></td>
           </tr>
         {% endfor %}
