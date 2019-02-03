@@ -1,4 +1,13 @@
-# Django入门指南-第9章：静态文件设置
+---
+layout: post
+title: "Django教程09:静态文件设置"
+categories: Django教程
+permalink: /django_beginner_guide_09.html
+tags: django
+author: candoy
+---
+Django入门指南-第9章：静态文件设置
+<!--more-->
 
 
 静态文件是指 CSS，JavaScript，字体，图片或者是用来组成用户界面的任何其他资源。
@@ -62,7 +71,8 @@ STATICFILES_DIRS = [
 **templates/home.html**
 
 ```html
-{% load static %}<!DOCTYPE html>
+{% load static %}
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -100,7 +110,7 @@ STATICFILES_DIRS = [
 ```
 
 
-首先，我们在模板的开头使用了 Static Files App 模板标签 `{% load static %}`。
+首先，我们在模板的开头使用了 Static Files App 模板标签 ``{% load static %}``。
 
 
 模板标签`{% static %}`用于构成资源文件完整URL。在这种情况下，`{% static 'css/bootstrap.min.css' %}`将返回 **/static/css/bootstrap.min.css**，它相当于 http://127.0.0.1:8000/static/css/bootstrap.min.css。
