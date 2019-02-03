@@ -137,7 +137,7 @@ def home(request):
         {% for board in boards %}
           <tr>
             <td>
-              {{ board.name }}<br>
+              {{ board.name }}
               <small style="color: #888">{{ board.description }}</small>
             </td>
             <td>0</td>
