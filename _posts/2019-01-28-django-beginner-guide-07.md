@@ -149,7 +149,6 @@ def home(request):
     </table>
   </body>
 </html>
-
 ```
 
 ![2-2-6.png](./statics/2-2-6.png)
